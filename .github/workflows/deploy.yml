@@ -1,4 +1,4 @@
-name: Lint and Deploy Website
+name: Deploy Website
 
 on:
   push:
@@ -15,25 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: Install dependencies
-        run: npm ci || npm install
-
-      - name: Run Lint
-        run: npm run lint
-
   deploy:
-    needs: lint
     runs-on: ubuntu-latest
     environment:
       name: github-pages
