@@ -1,0 +1,29 @@
+body {
+
+    margin:0;
+    font-family: Arial;
+    text-align:center;
+    color:white;
+
+    
+    background-repeat: no-repeat;   /* No duplication */
+    background-size: cover;         /* Zoom to fill screen */
+    background-position: center;    /* Keep image centered */
+    background-attachment: fixed;   /* Optional - looks modern */
+
+}
+
+.container{
+
+    margin-top:200px;
+
+}
+
+h1{
+    font-size:50px;
+}
+
+p{
+    font-size:25px;
+}
+
