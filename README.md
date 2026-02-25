@@ -9,7 +9,7 @@ The project demonstrates **Continuous Integration and Continuous Deployment (CI/
 
 ## 🚀 Live Website
 
-🔗 https://hirunihem.github.io/seasonal-greeting-ci-github-action/
+🔗  https://hirunihem.github.io/seasonal-greetings-ci-github-actions/
 
 ---
 
